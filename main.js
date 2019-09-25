@@ -1,6 +1,6 @@
 console.log('main.js loaded')
 $(document).ready(function() {
-    'user strict';
+    'use strict';
     paper.install(window);
     paper.setup(document.getElementById('mainCanvas'));
     var c;
