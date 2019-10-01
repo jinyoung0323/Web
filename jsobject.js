@@ -10,8 +10,8 @@ var car = {
     color: "black",
     price: 50000,
     info: function() {
-        document.write("tv color : " + this.color, "<br>");
-        document.write("tv price : " + this.price, "<br>");
+        document.write("car color : " + this.color, "<br>");
+        document.write("car price : " + this.price, "<br>");
     }
 };
 document.write("<h3>tv object call method</h3>");
