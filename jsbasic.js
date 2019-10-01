@@ -76,3 +76,19 @@ document.write("<hr>");
 document.write(k === 10, "<br>");
 document.write(m === 10, "<br>");
 document.write("<hr>");
+
+// 입력
+var number1 = prompt("정수1 입력", "0");
+var number2 = prompt("정수2 입력", "0");
+var sum = Number(number1) + parseInt(number2);
+
+document.write(number1 + " + " + number2 + " = " + sum, "<br>");
+document.write("<hr>");
+
+var select = confirm("회원을 탈퇴하시겠습니까?");
+
+if(select) {
+    document.write("탈퇴 처리되었습니다.");
+} else {
+    document.write("탈퇴 취소되었습니다.");
+}
