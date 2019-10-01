@@ -1,7 +1,24 @@
-.header {background: url(coding-825x500.jpg);
-    height: 450px; background-repeat: no-repeat;
+head {margin: 0; padding: 0; color: white; font-family: celibri;}
+
+.header {background: url(images.jpg);
+    height: 200px; background-repeat: no-repeat;
     background-size: cover;}
 
 .h-1 {max-width: 1000px; margin: auto; padding: 20px 0;}
 
-.h-1 h1 {font-size: 44px; color: #00FFB8;}
+.h-1 h1 {font-size: 44px; color: white;}
+.h-1 a {font-size: 15px; text-align: left;}
+
+    
+
+
+.body {width: 400px; background-color: #24303C; padding: 30px; color: white;
+    font-family: Calibri; border-radius: 3px;}
+
+.body h5 {margin: 0; font-size: 22px; margin-bottom: 20px; font-weight: normal;}
+
+.body p {font-size: 30px; color: gray;}
+
+.infobox {background-color: #24303C; border: 1px solid #1F53C5; font-size: 18px;
+    width: 95%; padding: 10px; margin-bottom: 16px; border-radius: 40px;
+    color: white;}
